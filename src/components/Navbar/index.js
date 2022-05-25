@@ -36,7 +36,7 @@ const Navbar = ({ toggle }) => {
             </MenuIcon>
             <NavMenu>
             <NavItem>
-                <NavLink to='discover' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Utility</NavLink>
+                <NavLink to='utility' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Utility</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink to='marketplace' smooth={true} duration={500} spy={true} exact='true' offset={-80} >Marketplace</NavLink>
@@ -45,12 +45,12 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 <NavLink to='community' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Community</NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink to='signup' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Sign Up</NavLink>
-              </NavItem>
+              </NavItem> */}
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
+              <NavBtnLink to="/signin">Wait list</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

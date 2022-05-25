@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CoverSection from '../components/CoverSection';
 import Footer from '../components/Footer';
 import InfoSection from '../components/InfoSection';
-import { nftObj, marketplaceObj, signupObj } from '../components/InfoSection/Data';
+import { utilityObj, marketplaceObj, communityObj } from '../components/InfoSection/Data';
 import Navbar from '../components/Navbar';
 import Services from '../components/Services';
 import Sidebar from '../components/Sidebar';
@@ -19,9 +19,9 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <CoverSection />
-      <InfoSection {...nftObj} />
+      <InfoSection {...utilityObj} />
       <InfoSection {...marketplaceObj} />
-      <InfoSection {...signupObj} />
+      <InfoSection {...communityObj} />
       <Services />
       <Footer />
     </>

@@ -1,7 +1,5 @@
-export const nftObj = {
-  id: 'discover',
-
-
+export const utilityObj = {
+  id: 'utility',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -59,7 +57,7 @@ export const signupObj = {
 
 
 export const communityObj = {
-  id: 'discover',
+  id: 'community',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
