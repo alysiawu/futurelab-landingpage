@@ -12,15 +12,13 @@ const Services = () => {
 
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Democratize of NFT for Utilities</ServicesH2>
+          <ServicesH2>Democratize Utility NFTs</ServicesH2>
           <ServicesP>NFTs are the lines of code, Slack message, the newsletter you sent to subscribers etc</ServicesP>
         </ServicesCard>
 
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Create Collaboration Economy Flywheel
- 
-</ServicesH2>
+          <ServicesH2>Create Collaboration Economy Flywheel</ServicesH2>
           <ServicesP>Creating a reinforcing flywheel effect for the collaboration economy.</ServicesP>
         </ServicesCard>
 

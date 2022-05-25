@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Video from '../../videos/video.mp4';
 import { CoverContainer, CoverBg, VideoBg, CoverContent, CoverH1, CoverP, CoverBtnWrapper, ArrowForward, ArrowRight } from './CoverElements';
-import { Button } from '../ButtonElements';
+// import { Button } from '../ButtonElements';
+import { NavBtnLink } from '../Navbar/NavbarElements';
 
 const CoverSection = () => {
   const [hover, setHover] = useState(false);
@@ -19,9 +20,9 @@ const CoverSection = () => {
         <CoverH1>Creator & Collaborator Economy</CoverH1>
         <CoverP>A decentralized platform for creators, builders and talents to collaborate and build their own independent economies with their communities. </CoverP>
         <CoverBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+          <NavBtnLink to="/signin" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+          </NavBtnLink>
         </CoverBtnWrapper>
       </CoverContent>
     </CoverContainer>

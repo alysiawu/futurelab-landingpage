@@ -74,6 +74,7 @@ export const CoverP = styled.p`
   text-align: center;
   max-width: 600px;
 
+  line-height: 40px;
   @media screen and (max-width: 768px) {
     font-size: 22px;
   }
