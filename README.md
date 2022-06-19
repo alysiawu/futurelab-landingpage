@@ -76,3 +76,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ## Thanking
 
 Inspired by [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
+# README
